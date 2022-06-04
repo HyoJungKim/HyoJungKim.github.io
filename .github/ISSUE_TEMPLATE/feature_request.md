@@ -1,35 +1,32 @@
 ---
-name: Feature Request
-about: Suggest an idea for this project
-labels: enhancement
+name: "Enhancement / Feature Request"
+about: "What would make this theme better?"
 ---
 
-<!-- NOTE: Please maintain all sections, otherwise the issue will be automatically closed :) -->
+<!--
+  Before opening a new issue please search all issues at 
+  https://github.com/mmistakes/minimal-mistakes/issues to avoid duplication.
+-->
 
-## Checklist
+## Summary
 
-<!-- Please complete the following list of tasks, and then check it by changing the "[ ]" to "[x]" -->
-- [ ] I have read the [contributing guidelines](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/.github/CONTRIBUTING.md).
-- [ ] There is no similar request on [existing issues](https://github.com/cotes2020/jekyll-theme-chirpy/issues?q=is%3Aissue) (including closed ones).
-- [ ] I have read the [project progress](https://github.com/cotes2020/jekyll-theme-chirpy/projects) and know the current progress of the project.
-- [ ] I was in the `master` branch of the latest code.
+<!--
+  A short explanation of the enhancement or feature.
+-->
 
+## Motivation
 
-## Is your feature request related to a problem? Please describe
+<!--
+  Why do you want to see this feature in the theme?
+  What use cases does it support?
 
-<!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] -->
+  NOTE: This theme has been designed as a base for you to customize and fit 
+  your site's unique needs. If a feature is not something most people will use, 
+  it likely won't be considered. When in doubt ask.
+-->
 
+## Drawbacks
 
-## Describe the solution you'd like
-
-<!-- A clear and concise description of what you want to happen. -->
-
-
-## Describe alternatives you've considered
-
-<!-- A clear and concise description of any alternative solutions or features you've considered. -->
-
-
-## Additional context
-
-<!-- Add any other context or screenshots about the feature request here. -->
+<!--
+  Why should this enhancement or feature **not** be considered?
+-->
