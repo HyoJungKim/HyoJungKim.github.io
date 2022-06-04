@@ -25,7 +25,7 @@ url                      : "https://HyoJungKim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "HyoJungKim/comments" #댓글 경로 / github name/repository
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/icon.jpg" # 타이틀 옆 로고
+logo                     : "/assets/images/logo.png" # 타이틀 옆 로고
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
