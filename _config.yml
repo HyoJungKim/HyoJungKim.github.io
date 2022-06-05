@@ -20,7 +20,7 @@ title                    : "포스트휴먼의 의료정보학 항해일지" # �
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Arcane"
-description              : "Posthuman's Nautocal Log across Clinical Informatics Universe"
+description              : "Posthuman's Nautical Log across Clinical Informatics Universe"
 url                      : "https://HyoJungKim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "HyoJungKim/comments" #댓글 경로 / github name/repository
