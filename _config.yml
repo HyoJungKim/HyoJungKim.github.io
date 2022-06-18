@@ -105,7 +105,7 @@ analytics: # 블로그 접근 경로 확인 코드
 author:
   name             : "Arcane"
   avatar           : "/assets/images/drawing_HJ_Yuri.jpg"
-  bio              : "Posthuman's Nautocal Log across Clinical Informatics Universe"
+  bio              : "Posthuman's Nautical Log across Clinical Informatics Universe"
   location         : "Seoul, Korea"
   
   links:
