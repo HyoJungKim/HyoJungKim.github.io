@@ -1,12 +1,11 @@
-> ---
+---
 title:  "Blog를 시작합니다." 
 excerpt: "Hello world!"
-
 
 categories:
   - Blog
 tags:
-  - [Blog]
+  - [Blog, Git, Github,]
 
 toc: true
 toc_sticky: true
@@ -14,6 +13,7 @@ toc_sticky: true
 date: 2022-06-05
 last_modified_at: 2022-06-05
 
+---
 
 Medical informatics는 아주 재미있지만 어쩐지 
 외로운(?) 분야가 되어버린 것 같습니다. 
