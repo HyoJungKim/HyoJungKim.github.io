@@ -1,6 +1,19 @@
 > ---
 title:  "Blog를 시작합니다." 
-excerpt: ""
+excerpt: "Hello world!"
+
+
+categories:
+  - Blog
+tags:
+  - [Blog]
+
+toc: true
+toc_sticky: true
+ 
+date: 2022-06-05
+last_modified_at: 2022-06-05
+
 
 Medical informatics는 아주 재미있지만 어쩐지 
 외로운(?) 분야가 되어버린 것 같습니다. 
@@ -19,16 +32,5 @@ Medical informatics는 아주 재미있지만 어쩐지
 
 * 참고할 수 있도록 웹상에 게시물을 올려주신 여러 선지자들께 감사드리며, 
 특히 본 블로그 소스는 [Jekyll](https://jekyllrb.com/) & [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/) 바탕의 [Heoni Tech](https://heoni00.github.io/) 님의 소스를 사용하여 아주아주 약간 커스텀 하였음을 밝힙니다. 
-
-categories:
-  - Blog
-tags:
-  - [Blog]
-
-toc: true
-toc_sticky: true
- 
-date: 2022-06-05
-last_modified_at: 2022-06-05
 
 ---
