@@ -25,6 +25,6 @@ tags:
 초심자분들로부터 같은 마음으로 각지에서 고군분투하고 계신 데이터과학/의료정보학자분들까지 
 다양한 분들과 clinical/medical informatics의 매력을 공유하고 이야기 나누고 싶습니다. :)
 
-저의 이력이 궁금하시다면 google site[https://sites.google.com/view/hyojungkim]를,
-개인적인 연락이 필요하시다면 e-mail이나 답글을 활용해 주시기를 부탁드립니다.
+저의 이력이 궁금하시다면 [google site](https://sites.google.com/view/hyojungkim)를,
+개인적인 연락이 필요하시다면 e-mail<arcane915@gmail.com>이나 답글을 활용해 주시기를 부탁드립니다.
 
