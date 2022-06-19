@@ -104,9 +104,8 @@ health informatics, medical informatics는 한 마디로 <u>"working definition�
 
 <img scr="assets/images/이미지 18.jpg">
 
-  *<center>"우리는 예전과 같은 일을 예전과 다른 방식으로 하게 될 것입니다" (feat. i-pad 광고)</center>*
-
-
+  <center>"우리는 예전과 같은 일을 예전과 다른 방식으로 하게 될 것입니다" (feat. i-pad 광고)</center>
+  <br>
 
 **고로, clinical informatics는 미래의학에 대해 상상할 수 있는 거의 모든 것을 현실로 실현하는 장이자 방법에 관한 것이라고도 할 수 있겠습니다.**
 
