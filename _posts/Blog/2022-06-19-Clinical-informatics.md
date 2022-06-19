@@ -78,7 +78,7 @@ health informatics, medical informatics는 한 마디로 <u>"working definition�
 
 
 
-사실상 **health informatics분야에서 실질적으로 지속가능하게 돌아가고 있는 실체가 뭐냐! **했을 때 십중팔구 **EHR(!)**이 떠오르실 것입니다. <span style="color:gray">~~(그래서 BM으로 EHR을 잡고 테크쪽에서 진입하는 눈물없이 못볼 경우가 왕왕... 역사는 반복된다 급으로.. )~~ </span> 아마도 다음으로는 (3초 쉬고)  apple health와 같은 트래킹 앱이 생각나실 것이고.. 최근 디지털 치료제/혹은 중재로 제안되는 몇몇 앱들이 회자되지 않을까 싶네요. <span style="color:gray"><u>(보험, 제약, 정부기관 등등 까지 생각나셨다면 당신은 준프로이상!)</u></span>
+사실상 **health informatics분야에서 실질적으로 지속가능하게 돌아가고 있는 실체가 뭐냐!** 했을 때 십중팔구 **EHR(!)**이 떠오르실 것입니다. <span style="color:gray">~~(그래서 BM으로 EHR을 잡고 테크쪽에서 진입하는 눈물없이 못볼 경우가 왕왕... 역사는 반복된다 급으로.. )~~ </span> 아마도 다음으로는 (3초 쉬고)  apple health와 같은 트래킹 앱이 생각나실 것이고.. 최근 디지털 치료제/혹은 중재로 제안되는 몇몇 앱들이 회자되지 않을까 싶네요. <span style="color:gray"><u>(보험, 제약, 정부기관 등등 까지 생각나셨다면 당신은 준프로이상!)</u></span>
 
 이것이 health informatics에서 clinical informatics의, 그리고 또 다시 clinical informatics에서 EHR의 현실세계에서의 비중입니다. 
 
@@ -92,7 +92,7 @@ health informatics, medical informatics는 한 마디로 <u>"working definition�
 
 
 
-#### "대부분 우리는 아직 small data의 방식으로 big data를 다루고 있습니다."
+#### <center> "대부분 우리는 아직 small data의 방식으로 big data를 다루고 있습니다."</center>
 
 
 
@@ -104,13 +104,13 @@ health informatics, medical informatics는 한 마디로 <u>"working definition�
 
 <img scr="assets/images/이미지 18.jpg">
 
-  <center> *"우리는 예전과 같은 일을 예전과 다른 방식으로 하게 될 것입니다" (feat. i-pad 광고)*</center>
+  *<center>"우리는 예전과 같은 일을 예전과 다른 방식으로 하게 될 것입니다" (feat. i-pad 광고)</center>*
 
 
 
-**고로, clinical informatics는 미래의학에 대해 상상할 수 있는 거의 모든 것을 현실로 실현하는 장이자 방법에 관한 것이라고도 할 수 있겠습니다. **
+**고로, clinical informatics는 미래의학에 대해 상상할 수 있는 거의 모든 것을 현실로 실현하는 장이자 방법에 관한 것이라고도 할 수 있겠습니다.**
 
-**<span style="color:gray">*(~~학문으로서의 장래성과는 또 별개지만요 아하하하~~)*</span>**
+<span style="color:gray">*(~~학문으로서의 장래성과는 또 별개지만요 아하하하~~)*</span>
 
 
 
