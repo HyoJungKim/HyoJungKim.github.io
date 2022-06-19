@@ -118,15 +118,5 @@ health informatics, medical informatics는 한 마디로 <u>"working definition�
 
 이것을 다음주 쯤 작성할 다음글에서 살펴보도록 하겠습니다. :)
 
-------------------------------
 
-
-
-
-
-
-
-
-
-
-
+---
