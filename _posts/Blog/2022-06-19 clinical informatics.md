@@ -1,3 +1,20 @@
+---
+title:  "Clinical Informatics: Bridge to reality." 
+excerpt: ""
+
+categories:
+  - Blog
+tags:
+  - [Clinical informatics]
+
+toc: true
+toc_sticky: true
+ 
+date: 2022-06-19
+last_modified_at: 2022-06-19
+---
+
+
 ## *Clinical Informatics: Bridge to reality.*
 
 
