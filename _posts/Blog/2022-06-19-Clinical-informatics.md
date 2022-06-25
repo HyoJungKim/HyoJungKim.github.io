@@ -102,11 +102,11 @@ health informatics, medical informatics는 한 마디로 <u>"working definition�
 
 정밀의료로 나아간다는 것은, 몇 개의 군으로 나누어서 해당되는 군에는 같은 치료를 한다. 는 방향에서 그 군의 크기를 개인의 수준까지 낮추고 정보의 범위를 유전체에까지 확장한다는 것으로, 의사결정에 고려하게 되는 정보의 총량이 폭발적으로 증가한다는 것을 의미합니다. 이 지점에서 IT기술의 활용은 선택이 아니라 필수가 되는 임계점이 있음을 확신할 수 있으며, **IT기술과 임상의 접점의 모든 장이 바로 clinical informatics입니다.**
 
-![image](https://user-images.githubusercontent.com/25048006/175769158-1f9d497b-e83c-49fc-821a-303ff8e25d2f.png){: width="80%" height="80%"}
-*Photo credit: https://www.youtube.com/watch?v=zWDUeh-EujM 
-[HD] 모든 애플 한국 아이폰, 아이패드, 아이팟 광고 모음 (1999~2020) Every Apple Commercial
+![image](https://user-images.githubusercontent.com/25048006/175769546-8439a0f7-cf7a-40ce-b134-fb2317591cb5.png)
+*Photo credit: 
+[모든 애플 한국 아이폰, 아이패드, 아이팟 광고 모음 (1999~2020) Every Apple Commercial](https://www.youtube.com/watch?v=zWDUeh-EujM)
 
-  > #"우리는 예전과 같은 일을 예전과 다른 방식으로 하게 될 것입니다" (feat. i-pad 광고)
+  #> "우리는 예전과 같은 일을 예전과 다른 방식으로 하게 될 것입니다" (feat. i-pad 광고)
   <br>
 
 -----
@@ -115,8 +115,8 @@ health informatics, medical informatics는 한 마디로 <u>"working definition�
 -----
 
 <span style="color:gray">*(~~학문으로서의 장래성과는 또 별개지만요 아하하하~~)*</span>
-따라서, 선생님이 하시는 그거! 그게 뭐죠? 라고 하신다면 'clinical informatics'라고 할 수 있겠고
-방법론에 있어서는 Data science, data management, knowledge representation(data modeling), knowledge engineering을 주로 합니다.
+따라서, 선생님이 하시는 그거! 그게 뭐죠? 라고 하신다면 주전공은 **'clinical informatics'** 라고 할 수 있겠고
+<u>방법론</u>에 있어서는 **Data science, data management, knowledge representation(data modeling), knowledge engineering**을 주로 합니다.
 하나하나에 대해서는 각각 따로따로 다음에 정리해 보도록 하겠습니다. 
 
 
