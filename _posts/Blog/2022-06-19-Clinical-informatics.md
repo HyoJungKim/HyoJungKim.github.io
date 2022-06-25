@@ -102,7 +102,9 @@ health informatics, medical informatics는 한 마디로 <u>"working definition�
 
 정밀의료로 나아간다는 것은, 몇 개의 군으로 나누어서 해당되는 군에는 같은 치료를 한다. 는 방향에서 그 군의 크기를 개인의 수준까지 낮추고 정보의 범위를 유전체에까지 확장한다는 것으로, 의사결정에 고려하게 되는 정보의 총량이 폭발적으로 증가한다는 것을 의미합니다. 이 지점에서 IT기술의 활용은 선택이 아니라 필수가 되는 임계점이 있음을 확신할 수 있으며, **IT기술과 임상의 접점의 모든 장이 바로 clinical informatics입니다.**
 
-<img scr="assets/images/이미지 18.jpg">
+![image](https://user-images.githubusercontent.com/25048006/175769158-1f9d497b-e83c-49fc-821a-303ff8e25d2f.png)
+*Photo credit: https://www.youtube.com/watch?v=zWDUeh-EujM 
+[HD] 모든 애플 한국 아이폰, 아이패드, 아이팟 광고 모음 (1999~2020) Every Apple Commercial
 
   <center>"우리는 예전과 같은 일을 예전과 다른 방식으로 하게 될 것입니다" (feat. i-pad 광고)</center>
   <br>
