@@ -106,10 +106,10 @@ health informatics, medical informatics는 한 마디로 <u>"working definition�
 *Photo credit: https://www.youtube.com/watch?v=zWDUeh-EujM 
 [HD] 모든 애플 한국 아이폰, 아이패드, 아이팟 광고 모음 (1999~2020) Every Apple Commercial
 
-  <center>"우리는 예전과 같은 일을 예전과 다른 방식으로 하게 될 것입니다" (feat. i-pad 광고)</center>
+  > #"우리는 예전과 같은 일을 예전과 다른 방식으로 하게 될 것입니다" (feat. i-pad 광고)
   <br>
 
-**고로, clinical informatics는 미래의학에 대해 상상할 수 있는 거의 모든 것을 현실로 실현하는 장이자 방법에 관한 것이라고도 할 수 있겠습니다.**
+> **고로, clinical informatics는 미래의학에 대해 상상할 수 있는 거의 모든 것을 현실로 실현하는 장이자 방법에 관한 것이라고도 할 수 있겠습니다.**
 
 <span style="color:gray">*(~~학문으로서의 장래성과는 또 별개지만요 아하하하~~)*</span>
 
