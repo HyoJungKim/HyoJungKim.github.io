@@ -44,7 +44,7 @@ _image reference: Hoyt, R. E., Sutton, M., & Yoshihashi, A. (2008). *Medical Inf
 > 다만, 이하에 논의할 단어들은 앞으로도 그 의미나 지칭이 변할 수 있다는 것입니다. 
 > 따라서 통상적인 수준에서 연대기적으로 설명하겠습니다.
 
-
+-------
 
 ### 순차적 component들의 등장
 
@@ -95,7 +95,11 @@ u-severance, smith(현재의 Darwin), AMIS, BESTCare, nU 등등.. = EHR = EPIC, 
 
 CDSS는 주요 구성요소라고도 할 수 있지만 component보다는 기능 레이어에 위치하기 떄문에 별도로 논의하도록 하겠습니다. LIS(Laboratory information system, (진단)검사정보 시스템)은 장비 위주로 이미 독자적으로 발달된 것이 comphrehensive EHR의 시작에 당연하게 와서 연결된 부분이 강해서 따로 위에 시기별로 언급하지는 않았습니다.~~(이런 흐름을 볼 때 genomic data는 EHR에 GIS의 형태로 붙을 것이고, 그때 원천기술로 필요한 것은 지식표현이며, 그 데이터 모델을 제안해보겠다는게 [저의 논문](https://www.nature.com/articles/s41598-020-58088-2)의 인트로가 됩니다. 꺄륵)~~
 
+![image](https://user-images.githubusercontent.com/25048006/175822389-d0f4e4d2-bd8b-454b-8833-dbd9aa7a5fdf.png)
+*Kim, H. J., Kim, H. J., Park, Y., Lee, W. S., Lim, Y., & Kim, J. H. (2020). 
+Clinical genome data model (cGDM) provides interactive clinical decision support for precision medicine. Scientific reports, 10(1), 1-13.*
 
+-------
 
 ### 마치며
 
