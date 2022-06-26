@@ -8,11 +8,18 @@
             📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
-        <span class="nav__sub-title">etc</span>
+        <span class="nav__sub-title">Category list</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
-                        <li><a href="/categories/blog" class="">Blog Dev({{category[1].size}})</a></li>
+                        <li><a href="/categories/blog" class="">Blog({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "CI introduction" %}
+                        <li><a href="/categories/CI_introduction" class="">CI ingroduction({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
