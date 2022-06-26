@@ -38,8 +38,7 @@ last_modified_at: 2022-06-26
 
 이는 당연히 국내만의 문제는 아니며 혹자는 다음과 같은 그림으로 표현하기도 하였습니다.
 
-![image-20220626091702639](C:\Users\arcan\AppData\Roaming\Typora\typora-user-images\image-20220626091702639.png)
-
+![image](https://user-images.githubusercontent.com/25048006/175821266-352b0846-1f5b-4a2c-b986-5fe2262f8b26.png)
 _image reference: Hoyt, R. E., Sutton, M., & Yoshihashi, A. (2008). *Medical Informatics: Practical Guide for the Healthcare Professional 2008*. Lulu. com._
 
 이 저자들도 일종의 예로 그림을 보여준 것이지, "no universally accepted definition of an EHR" 이라고 합니다.  _record는 무엇인가, data와 무엇이 다른가, medical과 health의 영역은 어떻게 구분할 수 있는가, 턱과 목의 경계찾기 같은 재미난 논의거리들이 그득하지만_ +_+ '바닥까지 파는' 것은 blog에서 할 일은 아니고, 오늘은 component를 설명에 집중해 보겠습니다.
@@ -63,7 +62,7 @@ _image reference: Hoyt, R. E., Sutton, M., & Yoshihashi, A. (2008). *Medical Inf
 
 
 
-### CPOE(OCS)
+#### CPOE(OCS)
 
 그 다음으로 **처방정보시스템(OCS, = CPOE)** 가 등장합니다. (1990년대 중반)
 
@@ -75,7 +74,7 @@ OCS라는 단어가 먼저 사용되었고 (order communication system), 나중�
 
 
 
-### PACS와 EMR(서식기록)
+#### PACS와 EMR(서식기록)
 
 다음으로는 **2000년대 초중반에 걸쳐 filmless hospital, paperless hospital을 표방하며 PACS, EMR(협의의)이 하나씩 도입, 부가**되면서 현재 저희가 생각하는 <u>(comphehensive) EHR(이하 EHR은 이 의미로 사용)</u>의 형태를 갖추게 됩니다. 각 대형병원들에서는 이때 엄청난 IT프로젝트를 수행했고, 저는 이때는 한 병원의 현업에서 "오픈 할 수 있는건가?" 하던 베타테스터(=사용자) 쪽에 있었음을 고백(?)합니다. ~~(전산원 전직 당시 모 업체 대리님이  "내가 해도 이거보단 낫겠다 하고 왔나요?" 하시던 생각이 나네요 아하하하 아닙니다!! )~~
 
@@ -103,4 +102,4 @@ CDSS는 주요 구성요소라고도 할 수 있지만 component보다는 기능
 
 ### 마치며
 
-EHR의 intellegence의 핵심인 ***CDSS(clinical decision support system, 임상의사결정시스템)***와 HIS의 주요 컴포넌트의 하나인 ***CDW(clinical data warehouse)***가 남았네요. 다음 2주에 걸쳐 각각에 대해서 별도의 글로 살펴보고, HIS와 상응되는 또 다른 큰 축인 PGHD(=PHR, 개인건강기록)에 대해서도 다루어보겠습니다.
+EHR의 intellegence의 핵심인 ***CDSS(clinical decision support system, 임상의사결정시스템)***와 HIS의 주요 컴포넌트의 하나인 ***CDW(clinical data warehouse)*** 가 남았네요. 다음 2주에 걸쳐 각각에 대해서 별도의 글로 살펴보고, HIS와 상응되는 또 다른 큰 축인 ***PGHD(=PHR, 개인건강기록)*** 에 대해서도 다루어보겠습니다.
