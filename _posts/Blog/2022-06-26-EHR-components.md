@@ -31,17 +31,15 @@ last_modified_at: 2022-06-26
 1) 전자의무기록(=병원정보시스템) 
 
 2) 서식 기록(경과기록, 입원기록 등과 같은)을 입출력하는 모듈
-
-    등으로 의미가 혼용되기 때문입니다. 
-
+등으로 의미가 혼용되기 때문입니다. 
 
 
 이는 당연히 국내만의 문제는 아니며 혹자는 다음과 같은 그림으로 표현하기도 하였습니다.
-
 ![image](https://user-images.githubusercontent.com/25048006/175821266-352b0846-1f5b-4a2c-b986-5fe2262f8b26.png)
+
 _image reference: Hoyt, R. E., Sutton, M., & Yoshihashi, A. (2008). *Medical Informatics: Practical Guide for the Healthcare Professional 2008*. Lulu. com._
 
-이 저자들도 일종의 예로 그림을 보여준 것이지, "no universally accepted definition of an EHR" 이라고 합니다.  _record는 무엇인가, data와 무엇이 다른가, medical과 health의 영역은 어떻게 구분할 수 있는가, 턱과 목의 경계찾기 같은 재미난 논의거리들이 그득하지만_ +_+ '바닥까지 파는' 것은 blog에서 할 일은 아니고, 오늘은 component를 설명에 집중해 보겠습니다.
+위 그림의 저자들도 일종의 예로 그림을 보여준 것이지, "no universally accepted definition of an EHR" 이라고 합니다.  _record는 무엇인가, data와 무엇이 다른가, medical과 health의 영역은 어떻게 구분할 수 있는가, 턱과 목의 경계찾기 같은 재미난 논의거리들이 그득하지만_ +_+ '바닥까지 파는' 것은 blog에서 할 일은 아니고, 오늘은 component를 설명에 집중해 보겠습니다.
 
 > 다만, 이하에 논의할 단어들은 앞으로도 그 의미나 지칭이 변할 수 있다는 것입니다. 
 > 따라서 통상적인 수준에서 연대기적으로 설명하겠습니다.
@@ -88,8 +86,7 @@ EMR은 기존의 입/퇴원기록, 경과기록, 수술기록, 간호기록, 병
 
 OCS와 EMR이 결합된 광의의 EHR(당시는 이것도 EMR이라고 불렀습니다 ㅎㅎ)이 등장하면서 IT업계도 병원들도 동공지진..을 맞게 됩니다. 특히 국내에서는 각 대형병원들이 in-house로 개발을 했기 때문에 구성과 기능의 상호비교도 어렵고, 국외라고 해도 software이기 떄문에 구성과 기능이 구체적으로 알려지면 설계도가 나간 것과 같지 않겠습니까..? 그래서 EHR은 현재까지도 막연한 단어로 남고, 그 자체는 '워드프로세서'와 같이 실체가 있는 단어는 아닌데 많은 사람들에게 혼동을 불러일으키게 됩니다. ~~"그래서 EHR을 도입 하라는거야 말라는거야" 같은 질문을 양산..~~
 
-u-severance, smith(현재의 Darwin), AMIS 등등.. = EHR = EPIC, Cerner... 응?? 이렇게..
-
+u-severance, smith(현재의 Darwin), AMIS, BESTCare, nU 등등.. = EHR = EPIC, Cerner... 응?? 이렇게..
 
 
 따라서, 이렇게 이해하는 것이 가장 정확한 출발입니다.
