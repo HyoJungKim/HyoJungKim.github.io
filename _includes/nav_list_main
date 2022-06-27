@@ -23,6 +23,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "R for data science" %}
+                        <li><a href="/categories/r_for_DS" class="">R for data science({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
       <li>	
             <br>      
