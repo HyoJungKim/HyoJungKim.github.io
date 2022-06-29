@@ -30,6 +30,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Nautical Log" %}
+                       📂 <li><a href="/categories/nautical_log" class="">Nautical Log({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
       <li>	
             <br>      
