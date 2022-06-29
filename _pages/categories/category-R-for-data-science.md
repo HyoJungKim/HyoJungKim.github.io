@@ -1,7 +1,7 @@
 ---
 title: "R for data science"
 layout: archive
-permalink: categories/r_for_DS
+permalink: categories/r_for_ds
 author_profile: true
 sidebar_main: true
 ---
