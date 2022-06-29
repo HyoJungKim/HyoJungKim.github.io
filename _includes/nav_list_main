@@ -33,7 +33,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Nautical log" %}
-                        <li><a href="/categories/nautical_log" class="">Nautical Log({{category[1].size}})</a></li>
+                        <li><a href="/categories/nautical_log" class="">Nautical log({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
