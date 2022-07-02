@@ -18,7 +18,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "CI introduction" %}
+                    {% if category[0] == "Ci introduction" %}
                         <li><a href="/categories/clinical_informatics" class="">CI ingroduction({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
