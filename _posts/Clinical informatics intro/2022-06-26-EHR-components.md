@@ -3,7 +3,7 @@ title:  "EHR의 단위구성요소들"
 excerpt: ""
 
 categories:
-  - [CI_introduction]
+  - [CI introduction]
 tags:
   - [Clinical informatics]
 
