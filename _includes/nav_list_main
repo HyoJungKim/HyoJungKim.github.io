@@ -12,28 +12,28 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
-                        <li><a href="/categories/blog" class="">Blog({{category[1].size}})</a></li>
+                        <li><a href="/categories/blog" class="">Blog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "CI_introduction1" %}
-                        <li><a href="/categories/ci_introduction" class="">CI introduction({{category[1].size}})</a></li>
+                    {% if category[0] == "CI_introduction" %}
+                        <li><a href="/categories/ci_introduction" class="">CI introduction ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == ["R for data science"] %}
-                        <li><a href="/categories/r_for_DS" class="">R for data science({{category[1].size}})</a></li>
+                        <li><a href="/categories/r_for_DS" class="">R for data science ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == ["Nautical log"] %}
-                        <li><a href="/categories/nautical_log" class="">Nautical log({{category[1].size}})</a></li>
+                        <li><a href="/categories/nautical_log" class="">Nautical log ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
