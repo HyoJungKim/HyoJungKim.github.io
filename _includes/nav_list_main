@@ -18,8 +18,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "CI introduction" %}
-                        <li><a href="/categories/ci_introduction" class="">Clinical Informatics ({{category[1].size}})</a></li>
+                    {% if category[0] == "Clinical Informatics" %}
+                        <li><a href="categories/clinical-informatics" class="">Clinical Informatics ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

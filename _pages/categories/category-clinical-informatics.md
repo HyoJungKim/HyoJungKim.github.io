@@ -1,7 +1,7 @@
 ---
-title: "임상의료정보학"
+title: "임상의료정보학(Introduction to Clinical Informatics)"
 layout: archive
-permalink: categories/ci_introduction
+permalink: categories/clinical-informatics
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['CI introduction'] %}
+{% assign posts = site.categories['Clinical Informatics'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
