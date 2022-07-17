@@ -18,21 +18,21 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "CI introduction" %}
+                    {% if category[0] == ["CI introduction"] %}
                         <li><a href="/categories/CI_introduction" class="">CI introduction({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "R for data science" %}
+                    {% if category[0] == ["R for data science"] %}
                         <li><a href="/categories/r_for_DS" class="">R for data science({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Nautical log" %}
+                    {% if category[0] == ["Nautical log"] %}
                         <li><a href="/categories/nautical_log" class="">Nautical log({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
