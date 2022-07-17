@@ -1,7 +1,7 @@
 ---
-title: "CI introdcution"
+title: "임상의료정보학"
 layout: archive
-permalink: categories/clinical_informatics
+permalink: categories/CI_introduction
 author_profile: true
 sidebar_main: true
 ---
