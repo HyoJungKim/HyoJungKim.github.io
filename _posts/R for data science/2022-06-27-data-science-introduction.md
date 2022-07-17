@@ -3,7 +3,7 @@ title:  "Data science: introduction"
 excerpt: ""
 
 categories:
-  - ['R for data science']
+  - [R for data science]
 tags:
   - [Clinical informatics,Data Science,Concept]
 
