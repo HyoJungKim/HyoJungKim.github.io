@@ -1,32 +1,87 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for post in site.posts %}
-    <url>
-        <loc>https:/hyojungkim.github.io/.html</loc>
-        {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-        {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-        {% endif %}
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-        {% if post.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-        {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-        {% endif %}
 
-        {% if post.sitemap.priority == null %}
-        <priority>0.5</priority>
-        {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-        {% endif %}
+<url>
+  <loc>https://hyojungkim.github.io/</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/index.html</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/categories/</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/about/</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/categories/blog</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/categories/clinical-informatics</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/categories/nautical_log</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/clinical%20informatics/CDW/</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/tags/</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/nautical%20log/CV/</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/r%20for%20data%20science/data-science-introduction/</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/clinical%20informatics/EHR-components/</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/blog/Clinical-informatics/</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/page2/</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hyojungkim.github.io/blog/Hello-world/</loc>
+  <lastmod>2022-07-17T13:01:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
-    </url>
-    {% endfor %}
+
 </urlset>
