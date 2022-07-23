@@ -26,7 +26,7 @@ last_modified_at: 2022-07-23
 
 ### Visualization
 
-[Bezier Curves]
+#### [Bezier Curves]
 베지에 곡선은 벡터 이미지 생성에서 하나의 주요한 알고리즘에 활용된 기본 개념으로, 
 "n개의 점으로부터 얻어지는 n-1차 곡선" 을 말한다. 
 기본정의: [위키피디아](https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%A7%80%EC%97%90_%EA%B3%A1%EC%84%A0) 
