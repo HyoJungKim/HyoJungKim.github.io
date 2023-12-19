@@ -19,7 +19,8 @@ last_modified_at: 2023-12-19
 ## *Data Model이란 무엇이고 computation에 왜 중요할까요?*
 
 ## 1. 들어가며
-오늘은 데이터 모델에 대해 말해보겠습니다. 
+오늘은 데이터 모델에 대해 말해보겠습니다. CDM들도 각자 하나의 데이터 모델이죠.
+(이 글을 읽으신 다음 관심있으신 CDM의 ERD를 펼쳐서 한 번 가만 들여다 보시는 것도 재밌을 것 같네요.)
 
 > "Data modelling is the first and most crucial step in the multi-tiered design of information systems. The final  product reliability, for example specific clinical decision support algorithms or integrated information systems, is  hardly improved over the designed reliability on the lower level of architecture (data-level)."
 
