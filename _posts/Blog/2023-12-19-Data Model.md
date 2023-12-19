@@ -21,11 +21,12 @@ last_modified_at: 2023-12-19
 # 1. 들어가며
 오늘은 데이터 모델에 대해 말해보겠습니다.
 
-```
-"Data modelling is the first and most crucial step in the multi-tiered design of information systems. The final product reliability, for example specific clinical decision support algorithms or integrated information systems, is hardly improved over the designed reliability on the lower level of architecture (data-level)."
 
-Kim, H.J., Kim, H.J., Park, Y. et al. Clinical Genome Data Model (cGDM) provides Interactive Clinical Decision Support for Precision Medicine. Sci Rep 10, 1414 (2020). https://doi.org/10.1038/s41598-020-58088-2
-```
+> "Data modelling is the first and most crucial step in the multi-tiered design of information systems. The final  product reliability, for example specific clinical decision support algorithms or integrated information systems, is  hardly improved over the designed reliability on the lower level of architecture (data-level)."
+
+> Kim, H.J., Kim, H.J., Park, Y. et al. Clinical Genome Data Model (cGDM) provides Interactive Clinical Decision Support for Precision Medicine. Sci Rep 10, 1414 (2020). https://doi.org/10.1038/s41598-020-58088-2
+
+-------
 
 저의 글은 저보다 똑똑하기 때문에.. 위와 같이 제가 작성했던 discussion을 인용해 보았습니다.
 데이터 모델과 아키텍쳐는 눈에 보이지 않기 때문에 (매의 눈이 있고 소프트웨어가 많은 기능을 제공한다면 살짝 보이긴 보임) 간과되는 경우가 많은데, 이럴 경우 오픈까지 개발보다 유지 보수가 더 손이 많이가는 시스템이 탄생합니다 (...)
@@ -44,6 +45,7 @@ CDW 구축이 도입되던 2010년 전후로 여러 병원들에서 대규모 �
 소프트웨어는 데이터 + 코드로 이루어집니다. 여기서 컴퓨테이셔널 파워가 작던 시절에는 (8비트 컴퓨터 시절 상상해보세요) 데이터를 코드와 분리하지 않고 저장하고, 다루기도 했습니다. 이 떄에도 변수 설계와 데이터타입의 선언은 엄청나게 중요했지만, 컴퓨테이셔널 파워가 올라가고 우리가 컴퓨터에게 세상을 가르치기 시작하면서, knowledge representation이 엄청나게 중요해집니다. 
 이건 제가 너무 좋아하는 주제라서 ~~TMI방지를 위해~~ 오늘은 "computation에 있어서 data model의 중요성"을 보여드리는데 집중해 보겠습니다.
 
+-------
 
 # 2. 효과적인 데이터 모델이란 
 
@@ -90,32 +92,35 @@ CDW 구축이 도입되던 2010년 전후로 여러 병원들에서 대규모 �
 **즉, 각 객체(한 줄? 이라고 할까요?)을 <u>비교가능하고</u>, <u>연산가능하고</u>, <u>예상가능</u>하게 합니다.**
 *여기서 연산은 논리적 연산을 포함합니다*
 
-이 예시에서 **RGB라는 색상 데이터 모델**을 통해서 우리는  
-1) 3번과 4번 색상의 차이를 말할 수 있고, 
-2) 1~4번 색상을 보고 5번 색상의 값을 예상할 수 있습니다. 
+## 3. 효과적인 데이터 모델의 강점
+
+위 예시에서 **RGB라는 색상 데이터 모델**을 통해서 우리는  
+### 1) 3번과 4번 색상의 차이를 말할 수 있고, 
+### 2) 1~4번 색상을 보고 5번 색상의 값을 예상할 수 있습니다. 
 
 뿐만 아니라 이 데이터 모델을 보면, (쉬운 예시를 드느라 모두 아는 정보였지만) 
-3) 색상을 세 가지 색으로 표현할 수 있다는 이해도 얻을 수 있습니다.
+### 3) 색상을 세 가지 색으로 표현할 수 있다는 이해도 얻을 수 있습니다.
 
 게다가 모델이 적용한 지식의 근거에 따라, data 값의 논리적 validation도 수행할 수 있습니다. 
 Red 값에 999가 들어있다면 error겠죠. 이 모델에서는 15줄 위에서 :) 255의 구간을 정의하기로 했으니까요.
 
-4) 이렇게 고도로 추상화 된 모델은, 어떤 값이 들어와도 robust합니다.
-파랑, 민트, 보라.. 다 넣으실 수 있죠. 
+### 4) 고도로 추상화 된 모델은, 어떤 값이 들어와도 robust합니다.
+파랑, 민트, 보라.. 다 넣을 수 있죠. 
 
-5) 게다가 높은 퍼포먼스를 보장합니다.
+### 5) 높은 퍼포먼스를 보장합니다.
 "이름"으로 구성했던 모델에서는 색상과 데이터가 1:1이기 때문에 10000개의 색상을 저장하려면 10000개의 가변형 문자값이 필요했지만,
 지금은 0~255*3이고 심지어 숫자값으로 처리할 수도 있습니다. 전자는 심지어 하나의 dictionary(reference dataset)도 거쳐가야 하고요. 시스템에 얹었을 때 처리 속도가 완전히 다릅니다. 데이터 모델이 복잡할수록, entity와 property, 즉 table 또는 컬럼, 변수의 수가 많아질 수록 이 차이는 증폭됩니다.
 
 ![image](https://github.com/HyoJungKim/HyoJungKim.github.io/assets/25048006/3db166fa-2b20-42c7-899d-166cfb13d668)
 
 꼭 RGB가 아니어도 좋습니다. 우리는 색상을 여러 층위와 목적으로 사용해서 정말 잘 정립된 모델과 딕셔너리들이 많아요.
-체계적으로 잘 정립되었다면, 이 모델들은 심지어 상호운용도 됩니다. (어느정도는)
+
+> 체계적으로 잘 정립되었다면, 같은 현상을 대상으로 한 데이터 모델들은 심지어 상호운용도 됩니다. (어느정도는)
 
 ![image](https://github.com/HyoJungKim/HyoJungKim.github.io/assets/25048006/5adce7ab-b3c7-46f1-8ad4-bff650975b8c)
 
-**왜냐하면, 우리는 어차피 같은 현상(색상)을 representation 하려고 했거든요.**
-그러니까 목적에 따라 다른 관점에서 접근했더라도 어느 정도는 통해야 정상입니다. 
+> **왜냐하면, 우리는 어차피 같은 현상(색상)을 representation 하려고 했거든요.**
+> 그러니까 목적에 따라 다른 관점에서 접근했더라도 어느 정도는 통해야 정상입니다. 
 
 EHR도 입원/외래/응급의 workflow와 기록/검사/약/(시술)수술/방사선치료 와 같은 큰 덩어리들은 모두 있을 것입니다.
 게다가 우리나라는 결국 심평원에 같은 형태로 전송해야 하는 이슈가 있어서, in-house 방식 개발이어도 informatician들은 각 데이터 구조를 (accessible하다면) 빠르게 이해할 수 있습니다. 그래서 in-house라는 것이 원래 100% 다를 수 있다고 가정해도, 실제로는 데이터 레이어는 <u>어느 정도</u> 연결가능할 수 있습니다. **데이터 레이어가 체계적으로 잘 정립 되었다면** 말이죠.
@@ -124,7 +129,7 @@ EHR도 입원/외래/응급의 workflow와 기록/검사/약/(시술)수술/방�
 
 데이터 모델은 잘 설계하기는 어렵고, 도메인과 컴퓨터, 소프트웨어 아키텍트에 대한 지식도 있어야 합니다.
 그리고 데이터 모델은 일반적으로 DBMS로 다루는데, applicational coder는 진입장벽도 낮고 눈에 보이는 산출물을 낼 수 있기 때문에 더 많고 흔하게 접할 수 있는 반면 DB를 설계하는 사람들은 드뭅니다. 
-~~특히 연구자이면서 데이터 플랫폼을 한다는 것은... 필요성 대비 사회적 자살행위에 가까운 것 같...~~
+~~특히 연구자이면서 데이터 플랫폼을 한다는 것은... 필요성 대비 사회적 자살행위에 가까운 것 같... ~~
 
 그런데 뭔가 데이터가 있으면, 개발 또는 분석만 하면 될 것 같았는데 뭔가 수월성있게 안되거든요?
 그러니까 자꾸 데이터 플랫폼 해야한다고 하는데 별도의 산업에 가까운 하드웨어 엔지니어링, 아키텍트는 전문성을 인정하고 헬스케어/의료데이터의 모델링과 파이프라인은 인식이 없거나/일방향 클렌징만 하다가 포기하거나 하는 경우가 많습니다.
@@ -135,5 +140,21 @@ EHR도 입원/외래/응급의 workflow와 기록/검사/약/(시술)수술/방�
 그 날이 온다면 (그 때의) informatician들은 컴퓨터와 손을 잡고, 철학자와 물리학자 사이에서 맨 앞줄에 앉아 있지 않을까요? :)
 ~~(현실의 informatician들은 analysis와 application 개발자들 사이에 껴서 너희의 퍼포먼스를 증명해랏 도전에 시달리며 근근히 연명.. 쿨럭쿨럭)~~
 
-정말 막 두근두근 재밌지 않나요? 
+정말 막 두근두근 재밌지 않나요?!! (껄껄) 
 ![image](https://github.com/HyoJungKim/HyoJungKim.github.io/assets/25048006/dd1866a7-a1f3-407c-be40-6397468fe5f1)
+
+
+전체적인 아키텍쳐와 철학을 어떻게 가져가느냐는 data management와도 직접적으로 연결됩니다.
+
+> Big data시대라는 것에는 모두 동의하지만 big data를 다루기 위한 새로운 양상(mode)에 대한 인식은 낮은 것 같습니다.
+
+지속가능한 데이터 핸들링을 손으로 CRF모으던 시절과 같은 방식으로 하고 있진 않은가? 한 번 다시 생각해보시면 재미있을 것 같은데요, 데이터 거버넌스, 매니지먼트, 지식 엔지니어링과 데이터 엔지니어링, 소프트웨어 아키텍쳐 등의 지평은 적어도 알아야 합니다. 
+(데이터 쉐어링과 크레딧도요!) 너무 거대한 이야기들이라 쉽게쉽게 "체리!"처럼 쉽게 설명 가능할 때 하나씩 올려보도록 할게요.
+
+우리는 정말 대변혁의 시대에 살고 있습니다.
+혁신은 이미 일어났고, 거스를 수 없이 우리 가까이 와있고, 파괴적 혁신이 가져올 파괴들과 창발들이 이어질거에요.
+정보와 디지털의 무서움은 선점과 독점 자체가 또 힘이 되서 전복이 어렵다는 것입니다. 정말 소수의 뛰어난 플레이어들만이 살아남을거에요. 우리는 COVID 백신과 치료제 개발에서 이미 따라잡을 수 없는 격차란 무엇인가를 보았고, LLM에서 또 보고 있습니다. 
+
+어느 분야의, 기관의, 팀의 리더라면 정말 절박한 마음이 있어야 하지 않을까? 하는 시대의 변곡점이라고 생각합니다.
+저는 꼬꼬마 개인이지만 나만 마음이 급한가 싶어 안타까운 마음이 들 때가 종종 있었습니다. 그래서 무엇이 중요할까에 대해서 절박하게 생각을 나누고 정보를 찾는 분들을 위해서 조금이나마 시간을 할애해서 생각을 나누어 가려고 노력해 보려고 합니다.
+
