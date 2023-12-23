@@ -3,7 +3,7 @@ title:  "Data Model:Why is a data model important to computation?"
 excerpt: ""
 
 categories:
-  - Blog
+  - Clinical Informatics 
 tags:
   - [Clinical informatics, Data model]
 
@@ -55,7 +55,7 @@ CDW 구축이 도입되던 2010년 전후로 여러 병원들에서 대규모 �
 
 ## 2.1 *체리는 체리색이죠!* 
 
-우리는 *color*라는 *entity*에 대해서 **__"cheery"__** 라는 *이름*을 줄 수 있습니다.
+우리는 *color*라는 *entity*에 대해서 **<u>"cheery"</u>** 라는 *이름*을 줄 수 있습니다.
 물론 이걸 컴퓨터가 인식하려면 어떤 dictionary가 필요할 거에요. cheery를 이름으로 지칭할 수 있도록 하는 reference set이죠.
 
 이 방법은 아주 직관적입니다. 그리고 우리가 평소에 쓰는 지칭인 "이름"으로 색상을 match할 수 있어요.
