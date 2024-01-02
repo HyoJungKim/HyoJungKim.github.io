@@ -20,7 +20,7 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Clinical Informatics" %}
                         <li><a href="categories/clinical-informatics" class="">Clinical Informatics ({{category[1].size}})</a></li>
-                    {% endif %}
+                    {% endif %}      
                 {% endfor %}
             </ul>
             <ul>
