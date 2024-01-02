@@ -27,6 +27,7 @@ repository               : "HyoJungKim/comments" #댓글 경로 / github name/re
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/posthuman.PNG" # 타이틀 옆 로고
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+futuer                   : true
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 
