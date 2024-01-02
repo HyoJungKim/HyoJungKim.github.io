@@ -32,7 +32,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "R for data science" %}
+                    {% if category[0] == "Scrapbook" %}
                         <li><a href="/categories/scrapbook" class="">scrapbook (weblinks) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
