@@ -1,17 +1,17 @@
 ---
-title:  "Book note: 선택 설계자들, 올리비에 시보니(저)/안종희(역), 인플루엔셜, 2021" 
+title:  "Book note: 선택 설계자들, 올리비에 시보니(저)안종희(역), 인플루엔셜, 2021" 
 excerpt: ""
 
 categories:
   - Blog
 tags:
-  - [Blog],[Book reading]
+  - [Blog]
 
 toc: true
 toc_sticky: true
  
-date: 2024-01-21
-last_modified_at: 2024-01-21
+date: 2024-01-20
+last_modified_at: 2024-01-20
 
 ---
 
