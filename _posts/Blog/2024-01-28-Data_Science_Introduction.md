@@ -35,20 +35,28 @@ data science에 대한 설명들은 많지만 대부분 구체적인 감을 제�
 저는 하나로 말하라면 Informaticist(정보학자)인데요, 다음과 같이 더 특정해 볼 수 있습니다.
 
 1) domain expertise(전문성을 가진 영역)
+
   ▶ healthcare(from public health to clinical level)입니다.
 
 2) Informatician = Informatian + Scientist 
+
   ▶ 저는 정보학을 하는 전문가(과학자)이기도 합니다. 
   정보학이란 Data가 어떻게 Information(정보)가 되고, Knowledge(지식)이 되고, Wisdom(지혜)이 되는지의 소위 DIKW의 구분과 그 변환의 흐름과 과정에 관련된 탐구입니다. 
 
 3) 2)의 일부로써, Data Scientist이기도 합니다.
+
   ▶ **Data로부터 <u>과학적인 방법으로</u> Information(정보)를 도출**하고 insight(지식/지혜의 단초)를 부여하거나 찾아내는 것이 data scientist가 하는 일입니다. 과학적으로 데이터로부터 정보를 도출하는데에는 <u>놀랍게도(!) 두 가지 방법</u>이 있습니다.
   
   **1) 통계** 
+
   <u>**2) 논리학**</u>
+
   여기에 현실과 괴리를 최소화하고 실제적 의미를 도출하려면
+
   **3) 도메인 지식**이,
+
   big data를 다루면서 이 세 가지를 통합하여 data science를 하려면
+  
   **4) 프로그래밍 스킬** 이 필요하게 됩니다.
 
 4) Data engineering도 합니다.
