@@ -1,17 +1,17 @@
 ---
-title:  "Data Scientist가 되고 싶은 분들께-어떻게 방향을 잡아야 할까요?" 
+title:  "Data Scientist가 되고 싶은 분들께, 어떻게 방향을 잡아야 할까요?" 
 excerpt: ""
 
 categories:
   - Blog
 tags:
-  - [Data Science],[Blog]
+  - [Data Science, Blog]
 
 toc: true
 toc_sticky: true
  
-date: 2024-01-21
-last_modified_at: 2024-01-21
+date: 2024-01-28
+last_modified_at: 2024-01-28
 
 ---
 

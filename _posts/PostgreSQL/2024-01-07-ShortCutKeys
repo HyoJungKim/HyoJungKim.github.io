@@ -1,0 +1,35 @@
+---
+title:  "pgAdmin 화면 설명과 기본기능" 
+excerpt: "pgAdmin 화면 설명과 기본기능"
+
+categories:
+  - PostgreSQL
+tags:
+  - [PostgreSQL]
+
+toc: true
+toc_sticky: true
+ 
+date: 2024-01-07
+last_modified_at: 2024-01-07
+
+---
+
+### pgAdmin 단축키
+
+| 단축키            | 설명                                                  |
+|-------------------|-------------------------------------------------------|
+| Alt+Shift+Q       | 쿼리툴 열기 (Open the Query Tool in the current database) |
+| Ctrl+Shift+/      | SQL 주석 (Comment/Uncomment code, BLOCK)               |
+| Ctrl+Shift+F      | 단어 바꾸기 (Replace)                                 |
+| Shift+F7          | SQL 실행 시나리오 분석 (EXPLAIN ANALYZE query)         |
+| F8                | 실행한 SQL을 바로 CSV로 다운로드 (Execute query to CSV file) |
+| Alt+Left          | SQL 맨 처음으로 이동 (Move to the beginning of the line) |
+| Alt+Right         | SQL 맨 오른콤으로 이동 (Move to the end of the line)  |
+| Ctrl+Shift+K      | SQL 정렬                                               |
+| Alt+Shift+V       | View Data in the selected table/view                   |
+| Ctrl+Enter        | 현재 SQL 실행 (Execute current SQL)                    |
+| Ctrl+Space        | 자동완성 기능 활성화 (Activate autocomplete)           |
+| F5                | 전체 SQL 스크립트 실행 (Execute all SQL scripts)       |
+| Ctrl+Alt+Down     | 다음 쿼리로 이동 (Move to next query)                  |
+| Ctrl+Alt+Up       | 이전 쿼리로 이동 (Move to previous query)              |
