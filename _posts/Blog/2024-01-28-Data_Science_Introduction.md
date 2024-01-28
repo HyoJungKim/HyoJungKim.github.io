@@ -142,3 +142,6 @@ data science에 대한 설명들은 많지만 대부분 구체적인 감을 제�
 
 엄밀성이 자유를 담보하는 
 :) 즐거운 데이터 과학의 세계로 오세요! 
+
+![DALL·E 2024-01-28 18 40 33 - An imaginative and uplifting illustration symbolizing open opportunities in an open world](https://github.com/HyoJungKim/HyoJungKim.github.io/assets/25048006/9f3d4350-2825-415c-a0f3-27a34098115a)
+(image credit: DALLE via chatGPT)
