@@ -29,10 +29,6 @@ last_modified_at: 2026-06-27
 
 예를 들어 ADHD 발생을 평가하려는 연구에서 ADHD 진단코드가 비식별 처리되어 직접 사용할 수 없다고 하자. 이 경우 연구자는 ADHD 약물 처방, 정신건강의학과 방문, 관련 진단군 등을 활용한 대체 조작적 정의를 고민할 수 있다. 그러나 이때 중요한 것은 하나의 정의만 선택해 결과를 제시하는 것이 아니다. 가능한 여러 정의를 적용했을 때도 결론의 방향과 크기가 유지되는지를 확인해야 한다. 이것이 sensitivity analysis의 핵심이다.
 
-마찬가지로 HIRA 자료를 이용한 SJS/TEN 연구에서도 washout period를 어떻게 설정할 것인지, index date를 어떻게 정의할 것인지, SJS와 TEN이 같은 날 동시에 청구된 경우를 어떻게 분류할 것인지가 결과에 영향을 줄 수 있다. 이러한 선택들은 단순한 기술적 세부사항이 아니라 연구 결론의 타당성을 좌우하는 분석 설계의 일부다. 따라서 주요 분석 결과와 함께 대안적 정의를 적용한 sensitivity analysis를 제시하면, 독자는 해당 결론이 특정한 한 가지 정의에만 의존한 것이 아님을 확인할 수 있다.
-
-FAERS와 같은 자발보고 이상사례 데이터에서도 같은 논리가 적용된다. 중복 보고를 어떻게 제거하는지에 따라 disproportionality signal의 크기는 달라질 수 있다. latest case version만 남기는 방식, 인구학적 정보와 보고일자를 기준으로 중복을 제거하는 방식, 약물-이상사례 조합의 pharmacological signature를 기준으로 제거하는 방식은 서로 다른 분석 모집단을 만든다. 따라서 PRR, ROR, IC와 같은 signal 지표를 하나의 deduplication 방식에서만 보고하는 것은 충분하지 않을 수 있다. 여러 deduplication strategy를 적용했을 때 signal의 방향성과 상대적 해석이 유지되는지를 보는 것은 전형적인 sensitivity analysis의 관점이다.
-
 ![Sensitivity analysis: estimate across operational definitions](/assets/images/posts/2026-06-27-robustness/sensitivity_forest.png)
 *Figure 1. 여러 조작적 정의를 적용해도 효과 추정치의 방향과 크기가 유지된다면, 결론은 특정 정의 하나에 의존하지 않는다고 볼 수 있다. (개념적 예시)*
 
