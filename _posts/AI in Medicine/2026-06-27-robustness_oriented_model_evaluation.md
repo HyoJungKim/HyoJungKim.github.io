@@ -3,9 +3,9 @@ title:  "Beyond performance: robustness-oriented model evaluation"
 excerpt: "성능 보고를 넘어, 분석 조건 변화에 대한 결과의 안정성(sensitivity analysis)과 모델 구성요소의 실제 기여도(ablation study)를 함께 검토하는 강건성 중심 모델 평가."
 
 categories:
-  - Medical AI
+  - AI in Medicine
 tags:
-  - [Medical AI, sensitivity analysis, ablation study, model evaluation, robustness]
+  - [AI in Medicine, sensitivity analysis, ablation study, model evaluation, robustness]
 
 toc: true
 toc_sticky: true

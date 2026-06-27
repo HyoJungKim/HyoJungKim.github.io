@@ -25,8 +25,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Medical AI" %}
-                        <li><a href="/categories/medical-ai" class="">Medical AI ({{category[1].size}})</a></li>
+                    {% if category[0] == "AI in Medicine" %}
+                        <li><a href="/categories/ai-in-medicine" class="">AI in Medicine ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

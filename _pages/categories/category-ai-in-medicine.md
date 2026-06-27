@@ -1,7 +1,7 @@
 ---
-title: "의료 인공지능 (Medical AI)"
+title: "의료 인공지능 (AI in Medicine)"
 layout: archive
-permalink: categories/medical-ai
+permalink: categories/ai-in-medicine
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['Medical AI'] %}
+{% assign posts = site.categories['AI in Medicine'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
