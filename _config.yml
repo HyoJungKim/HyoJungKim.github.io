@@ -96,7 +96,7 @@ social:
 
 # Analytics
 analytics: # 블로그 접근 경로 확인 코드 
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-169251732-1"
     anonymize_ip         : false # true, false (default)
