@@ -8,7 +8,7 @@ tags:
   - [AI in Medicine, sensitivity analysis, ablation study, model evaluation, robustness]
 
 header:
-  og_image: /assets/images/posts/2026-06-27-robustness/ablation_class_weight.png
+  og_image: /assets/images/posts/2026-06-27-robustness/og_card.png
 
 toc: true
 toc_sticky: true
